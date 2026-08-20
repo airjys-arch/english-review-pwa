@@ -1,0 +1,16 @@
+{
+  "name": "오늘의 영어복습",
+  "short_name": "영어복습",
+  "description": "수업자료 기반 영어 복습 앱",
+  "lang": "ko-KR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3faf7",
+  "theme_color": "#0ca678",
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

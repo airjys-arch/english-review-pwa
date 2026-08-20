@@ -1,0 +1,4 @@
+plugins { id 'com.android.application'; id 'org.jetbrains.kotlin.android' }
+android { namespace 'kr.co.greenenv.englishreview'; compileSdk 35
+ defaultConfig { applicationId 'kr.co.greenenv.englishreview'; minSdk 24; targetSdk 35; versionCode 30; versionName '3.0' }
+}
