@@ -1,4 +1,4 @@
-const CACHE = 'english-review-pwa-v3.3';
+const CACHE = 'english-review-pwa-v3.5';
 const ASSETS = [
   './',
   './index.html',
