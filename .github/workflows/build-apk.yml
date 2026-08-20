@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - '안드로이드/**'
+      - 'android/**'
       - '.github/workflows/build-apk.yml'
 
 permissions:
@@ -32,12 +32,12 @@ jobs:
           gradle-version: '8.9'
 
       - name: Build APK
-        working-directory: 안드로이드
+        working-directory: android
         run: gradle assembleDebug --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: 오늘의영어복습-Android-v3.3
-          path: 안드로이드/app/build/outputs/apk/debug/app-debug.apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
